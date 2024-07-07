@@ -14,3 +14,31 @@ body {
 .read-the-docs {
   color: #888;
 }
+
+.primary-btn {
+  background: #fff;
+  color: #646cff;
+  font-weight: 500;
+  border: 1px solid #646cff;
+  padding: 0.375rem 1rem;
+}
+
+.primary-btn:hover {
+  background: #646cff;
+  color: #fff;
+  border: none;
+}
+
+.secondary-btn {
+  background: #646cff;
+  color: #fff;
+  font-weight: 500;
+  padding: 0.375rem 1rem;
+  border: none;
+}
+
+.secondary-btn:hover {
+  background: #fff;
+  color: #646cff;
+  border: 1px solid #646cff;
+}
