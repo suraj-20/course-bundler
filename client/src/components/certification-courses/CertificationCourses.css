@@ -1,0 +1,24 @@
+.course-section {
+  background: #98d7fe68;
+}
+
+.course-card {
+  height: 35vh;
+}
+
+.card-img-top {
+  height: 25vh;
+}
+
+.course-card .content h3 {
+  font-size: 1rem;
+}
+
+.course-card .content .duration {
+  color: #888;
+}
+
+.extra-info i {
+  color: #ffae00;
+  /* background: yellow; */
+}

@@ -1,0 +1,29 @@
+.home-heading h2 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 72px;
+  font-weight: 700;
+  word-spacing: 3px;
+  color: #333;
+  line-height: 1.181818;
+  font-size: 44px;
+}
+
+.home-heading .underline {
+  position: absolute;
+  width: 265px;
+  height: 20px;
+  /* top: 100%; */
+  left: 50%;
+  background-size: 376px;
+  background-image: url("../../assets/underline_fire.png");
+  transform: translate(-40%, 0);
+  background-position: -28px 0;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1300px) {
+  .home-heading h2 {
+    width: 95%;
+  }
+}

@@ -1,0 +1,28 @@
+.latest-intern-section {
+  background: #d5d5d524;
+}
+
+.latest-intern-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.card {
+  padding: 1.3rem;
+  height: 38vh;
+}
+
+.card .card-heading {
+  margin-bottom: 1rem;
+}
+
+.card .list-items {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width:1300px) {
+  .latest-intern-container {
+    width: 95%;
+  }
+}

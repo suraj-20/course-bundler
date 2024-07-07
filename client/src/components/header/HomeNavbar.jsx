@@ -6,7 +6,7 @@ const HomeNavbar = () => {
   return (
     <div className="home-nav">
       <div className="nav-container d-flex align-items-center justify-content-between py-4">
-        <div className="logo-and-links d-flex align-items-center gap-4">
+        <div className="logo-and-links d-flex align-items-center gap-5">
           <div className="nav-logo">
             <Link to={"/"}>
               <h3 style={{ margin: "0px" }} className="logo-name">
@@ -14,13 +14,13 @@ const HomeNavbar = () => {
               </h3>
             </Link>
           </div>
-          <div className="nav-links d-flex align-items-center gap-3">
+          <div className="nav-links d-flex align-items-center gap-4">
             <Link to={"/internships"}>Interships</Link>
             <Link to={"/jobs"}>Jobs</Link>
             <Link to={"/courses"}>Courses</Link>
           </div>
         </div>
-        <div className="login-signup-btns d-flex align-items-center gap-3">
+        <div className="login-signup-btns d-flex align-items-center gap-4">
           <Link to={"/login"}>
             <button className="btn primary-btn">Login</button>
           </Link>

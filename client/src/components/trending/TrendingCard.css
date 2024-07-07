@@ -1,0 +1,20 @@
+.trending-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.trending-cards img {
+  width: 32%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .trending-container {
+    width: 95%;
+  }
+}

@@ -1,0 +1,30 @@
+.stats-container {
+  padding: 2rem 0;
+}
+
+.stats-grid {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 210px);
+}
+
+.stats-grid .stats .stat-value {
+  font-size: 2.5rem;
+  line-height: 1.181818;
+  font-weight: 700;
+  color: #006bc2;
+}
+
+.stats-grid .stats .caption {
+  font-size: 1.2rem;
+  line-height: 1.444444;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1300px) {
+  .stats-grid {
+    width: 95%;
+  }
+}
